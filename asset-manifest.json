@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portafolio-react/static/css/main.8dedc879.chunk.css",
+    "main.js": "/portafolio-react/static/js/main.3b6e5221.chunk.js",
+    "main.js.map": "/portafolio-react/static/js/main.3b6e5221.chunk.js.map",
+    "runtime-main.js": "/portafolio-react/static/js/runtime-main.a3172182.js",
+    "runtime-main.js.map": "/portafolio-react/static/js/runtime-main.a3172182.js.map",
+    "static/js/2.145234bf.chunk.js": "/portafolio-react/static/js/2.145234bf.chunk.js",
+    "static/js/2.145234bf.chunk.js.map": "/portafolio-react/static/js/2.145234bf.chunk.js.map",
+    "static/js/3.36f928e2.chunk.js": "/portafolio-react/static/js/3.36f928e2.chunk.js",
+    "static/js/3.36f928e2.chunk.js.map": "/portafolio-react/static/js/3.36f928e2.chunk.js.map",
+    "index.html": "/portafolio-react/index.html",
+    "static/css/main.8dedc879.chunk.css.map": "/portafolio-react/static/css/main.8dedc879.chunk.css.map",
+    "static/js/2.145234bf.chunk.js.LICENSE.txt": "/portafolio-react/static/js/2.145234bf.chunk.js.LICENSE.txt",
+    "static/media/nicol.2d90fa5e.PNG": "/portafolio-react/static/media/nicol.2d90fa5e.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3172182.js",
+    "static/js/2.145234bf.chunk.js",
+    "static/css/main.8dedc879.chunk.css",
+    "static/js/main.3b6e5221.chunk.js"
+  ]
+}

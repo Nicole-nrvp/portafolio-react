@@ -1,0 +1,32 @@
+.premios{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    background-color: #ffffff;
+    padding: 5px;
+    height: 200px;
+
+}
+
+.premios2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.txtTitulo{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.lista{
+    text-align: justify;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 45px;
+    height: 5px;
+    width: 500px;
+}
+

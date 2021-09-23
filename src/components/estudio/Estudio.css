@@ -1,0 +1,61 @@
+.estudio{
+    display: flex;
+    margin: 25px;
+    background-color: #ffffff;
+    padding: 5px;
+    height: 500px;
+}
+
+.lugar{
+    background-color: rgb(255, 255, 255);
+    margin: 1%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.txtTitulo{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.txtLugar1{
+    margin-top: 28px;
+}
+
+.txtLugar2{
+    margin-top: 60px;
+}
+
+.txtLugar3{
+    margin-top: 45px;
+}
+
+.txtLugar5{
+    margin-top: 28px;
+}
+.txtLugar{
+    margin-top: 28px;
+}
+
+.realizado{
+    background-color: rgb(255, 255, 255);
+    margin: 1%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid rgb(0, 0, 0);
+}
+
+.txtRealizado{
+    margin-top: 5px;
+}
+
+.txtRealizado1{
+    margin-top: 50px;
+}
+
+.txtRealizado2{
+    margin-top: 48px;
+}

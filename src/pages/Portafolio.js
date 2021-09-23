@@ -8,13 +8,13 @@ import Premios from './components/premios/Premios'
 
 function App() {
   return (
-    <div className="containerTT">
+    <div className="container">
       
       <Header />
 
       <hr />
       <section className="sesiones">
-      <div className="ContenedorTT2">
+
         <div className="miosesion">
           <Mio />
         </div>
@@ -24,7 +24,7 @@ function App() {
         </div>
 
 
-        <hr />  
+        <hr />
 
         <div className="logrossesion">
           <Logros />
@@ -37,9 +37,9 @@ function App() {
         </div>
 
         <hr />
-        </div>
+
       </section>
-      
+
     </div>
   );
 }

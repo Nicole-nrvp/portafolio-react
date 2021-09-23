@@ -1,0 +1,72 @@
+.mio{
+    display: flex;
+    margin: 25px;
+    background-color: #ffffff;
+    padding: 5px;
+    height: 250px;
+
+}
+
+.mio-2{
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+nombre{
+    margin-bottom: 10px;
+}
+
+
+.txtEstudiante{
+    margin-top: 2%;
+}
+
+
+.txtObjetivo{
+    text-align: justify;
+    margin-top: 2%;
+    margin-right: 10%;
+    height: 5px;
+    width: 500px;
+}
+
+.foto{
+    max-width: 100%;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+
+hr{
+        margin: 10px;
+        border-bottom: 2px solid rgb(0, 0, 0);     
+}
+
+@media (max-width: 768px) {
+    .mio{
+        display: flex;
+        margin: 25px;
+        background-color: #ffffff;
+        padding: 5px;
+        text-align: justify;    
+    }
+    
+    .mio-2{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+    .txtObjetivo{
+        text-align: justify;
+        margin-top: 2%;
+        margin-right: 10%;
+        height: 5px;
+        width: 500px;
+    }
+    
+
+
+}
+
+
+

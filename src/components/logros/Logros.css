@@ -1,0 +1,31 @@
+.logros{
+    display: flex;
+    margin: 25px;
+    background-color: #ffffff;
+    padding: 5px;
+    height: 200px;
+
+}
+
+.logro2{
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.parrafo1{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 25px;
+}
+
+
+.parrafo2{
+    margin-top: 2%;
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 25px;
+}
+
+
+

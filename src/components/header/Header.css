@@ -1,0 +1,169 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    width: 800px;
+    background-color: #b4b7b8;
+
+}
+.containet2{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    background-color: NONE;
+    
+}
+
+.titulo{
+    background-color: none;
+}
+.informacion{
+    background-color: none;
+}
+
+.info2{
+    margin-left: 5px;
+}
+
+.info3{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+i, h5{
+    margin-bottom: 1px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.habilidades{
+    background-color: none;
+}
+
+.txtHabilidades{
+    margin-bottom: 6px;
+}
+
+.ha-nombre{
+    margin-left: 35px;
+    margin-bottom: 4px;
+}
+.tecnicas-t{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.tecnicas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.txtHabiTec{
+    
+}
+
+.txtLabel{
+    margin-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+}
+
+.progreso{
+    margin-bottom: 10px;
+    margin-left: 25px;
+
+}
+progress[value] {
+    width: 230px;
+    height: 15px;
+    
+  appearance: none;
+  -webkit-appearance: none;
+
+  }
+
+  progress[value]::-webkit-progress-bar {
+    background-color: rgb(255, 255, 255);
+  }
+
+  progress[value]::-webkit-progress-value {
+    background-color: rgb(99, 91, 91);
+  }
+  
+.idiomas{
+    background-color: none;
+}
+
+.txtIdioma{
+    margin-bottom: 5px;
+}
+
+.liIdioma{
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.liQue{
+    margin-left: 15px;
+}
+.referencias{
+    background-color: none;
+}
+
+.txtRefencia{
+    margin-bottom: 8px;
+}
+
+.refcargo{
+    margin-left: 55px;
+}
+
+.hreader{
+    max-width: 250px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+  }
+
+.info{
+    margin-bottom: 5px;
+}
+
+.info i{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.ref i{
+    font-size: 2rem;
+    color: #274257;
+    padding: 10px;
+}
+
+.refnombre{
+    font-weight: 500;
+}
+
+.refcargo{
+    padding-left: 60;
+}
+
+hr{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+    .container{
+        background-color: #aab4b8;
+        max-width: 100%;
+    
+    }
+  }
+  

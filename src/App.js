@@ -1,47 +1,46 @@
+
 import './App.css';
-import Header from './components/header/Header';
-import Mio from './components/mio/Mio'
-import Estudio from './components/estudio/Estudio'
-import Logros from './components/logros/Logros'
-import Premios from './components/premios/Premios'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Portafolio from './pages/Portafolio';
+import Home from './pages/Home';
+import Error404 from './pages/Error404';
+import Cualidades from './pages/Cualidades';
 
 
 function App() {
+
+
   return (
-    <div className="containerTT">
-      
-      <Header />
-
-      <hr />
-      <section className="sesiones">
-      <div className="ContenedorTT2">
-        <div className="miosesion">
-          <Mio />
-        </div>
-
-        <div className="estudiosesion">
-          <Estudio />
-        </div>
 
 
-        <hr />  
+    <Router>
+      <Switch>
 
-        <div className="logrossesion">
-          <Logros />
-        </div>
+        <Route path="/portafolio">
+          <Portafolio />
+        </Route>
 
-        <hr />
+        <Route exact path="/home">
+          <Home />
+        </Route>
 
-        <div className="premiossesion">
-          <Premios />
-        </div>
+        <Route exact path="/cualidades">
+          <Cualidades />
+        </Route>
 
-        <hr />
-        </div>
-      </section>
-      
-    </div>
+        <Route path="*">
+          <Error404 />
+        </Route>
+
+      </Switch>
+
+    </Router>
+
   );
 }
-//es necesaro exprtar 
+
 export default App;

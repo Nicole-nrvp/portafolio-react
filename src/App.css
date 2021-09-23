@@ -1,4 +1,29 @@
+.cualidades{
+  display:flex;
+  justify-content: center;
+  display: block;
+  align-items: center;
+  margin: 25px;
+  padding: 10px;
+  background-color: #b4b7b8;
 
+}
+
+.error{
+  display:flex;
+  justify-content: center;
+  display: block;
+  align-items: center;
+  margin: 150px;
+  padding: 10px;
+  max-width: 100%;
+  background-color: #ec624f;
+
+}
+
+.textError{
+  text-align: center;
+}
 
 .containerTT {
   display:flex;
@@ -27,12 +52,18 @@
     justify-content: center;
   }
   .container{
-    background-color: #aab4b8;
+    background-color: #81cdeb;
     max-width: 100%;
 
 }
+
+  .cualidades{
+    background-color: #81cdeb;
+    max-width: 100%;
+  }
   
-  
+
+
 
 }
 

@@ -1,5 +1,9 @@
 //Creacion del componente empiezacomo funcion
 import './Header.css';
+import {
+    Link
+} from "react-router-dom";
+
 
 function Header() {
     return (
@@ -42,7 +46,8 @@ function Header() {
                 <hr className="hreader" />
 
                 <div className="habilidades">
-                    <h3 className="txtHabilidades">Cualidades </h3>
+                    <h3 className="txtHabilidades">Cualidades <Link to="/cualidades">Ver más</Link></h3>
+                    
                     <div className="habi-per">
 
                         <ol type="">

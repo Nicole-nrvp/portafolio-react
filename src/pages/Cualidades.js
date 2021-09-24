@@ -26,6 +26,7 @@ function Cualidades() {
                         </ol>
 
                         <h3 className="txtHabilidades"> <Link to="/portafolio">Volver al portafolio</Link></h3>
+                        <h3 className="txtHabilidades"> <Link to="/home">Volver al Home</Link></h3>
 
                     </div>
 
